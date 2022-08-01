@@ -19,11 +19,10 @@ app.get('/', (req, res) => {
     res.json({ msg: 'Rota / ok' })
 })
 
-/**Credentials - remove before commit!!!**/
 const DB_USER = encodeURIComponent(process.env.DB_USER)
 const DB_PASS = encodeURIComponent(process.env.DB_PASS)
 
-/**Connection with the database remotely**/
+/**Connection with the database remotely**/ //Change the string bellow to your mongodb's link
 mongoose
     .connect(`mongodb+srv://${DB_USER}:${DB_PASS}@nodejs-api-crud.7fdko.mongodb.net/?retryWrites=true&w=majority`)
     .then( () => {
