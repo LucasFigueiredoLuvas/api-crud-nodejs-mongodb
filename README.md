@@ -10,4 +10,5 @@
 - **CREATE '.env' IN THE ROOT DIRECTORY WITH THE VARIABLES BELLOW**
 
 DB_USER=user_name
+
 DB_PASS=user_password
