@@ -1,6 +1,6 @@
 # api-crud-nodejs-mongodb
 
-Installation (CLI):
+**Installation (CLI):**
 - git clone https://github.com/LucasFigueiredoLuvas/api-crud-nodejs-mongodb.git
 - cd api-crud-nodejs-mongodb
 - npm install
